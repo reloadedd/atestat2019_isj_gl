@@ -8,7 +8,7 @@ int main() {
     cin >> x;
 
     while (x) {
-        frecventa[x % 10] ++;
+        frecventa[x % 10]++;
         x /= 10;
     }
 
