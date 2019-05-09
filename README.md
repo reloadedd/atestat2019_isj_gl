@@ -1,5 +1,5 @@
 # Proba practica a examenului de atestat din 2019 - ISJ GL
-Rezolvarea unor subiecte de la proba practica a examenului de atestat din sesiunea mai 2019
+Rezolvarea subiectelor de la proba practica a examenului de atestat din sesiunea mai 2019
 
 
 ## Important
