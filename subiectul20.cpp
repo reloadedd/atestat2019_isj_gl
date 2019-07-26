@@ -9,7 +9,7 @@ int main() {
     cin >> n >> x;
 
     // Ideea e in felul urmator:
-    // x si n trebuie sa fie cuprinse intre 2 puteri consecutive de-a lui 2
+    // x si n trebuie sa fie cuprinse intre 2 puteri consecutive ale lui 2
     // 17 si 29 au acelasi numar de cifre daca sunt trecute in baza 2 deoarece
     // 16 <= 17 < 32 si 16 <= 29 < 32
     // Cand numarul este chiar putere de-a lui 2, atunci are o cifra in plus fata de numarul precedent
