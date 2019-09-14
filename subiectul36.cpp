@@ -15,10 +15,10 @@ int produs_coloana(int indice_coloana) {
 }
 
 int main() {
-    ifstream f("atestat.txt");   // Fisierul asta n-are nume, nu? Interesant subiect
+    ifstream f("atestat.txt");   // Fisierul asta n-are nume, nu? Inventez eu, nu-i problema.
     int maxim = 0, indici[DIM_MAX], k = 0;
 
-    f >> m >> n;    // ce teapa mi-au dat cu liniile si coloanele lor
+    f >> m >> n;    // Atentie! Conform cerintei, m este numarul de linii, iar n de coloane (trebuia sa te induca in eroare cumva)
     for (int i = 0; i < m; i++)
         for (int j = 0; j < n; j++)
             f >> matrix[i][j];
@@ -34,5 +34,5 @@ int main() {
     }
 
     for (int i = 0; i < k; i++)     // indicii incep de la 1, deoarece in cerinta nu este
-        cout << indici[i] << ' ';   // specificat
+        cout << indici[i] << ' ';   // specificat (nu la variabila "i" ma refer, ci la valorile vectorului "indici")
 }
