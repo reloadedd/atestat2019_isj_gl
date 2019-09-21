@@ -18,7 +18,7 @@ int main() {
     ifstream f("atestat.txt");   // Fisierul asta n-are nume, nu? Inventez eu, nu-i problema.
     int maxim = 0, indici[DIM_MAX], k = 0;
 
-    f >> m >> n;    // Atentie! Conform cerintei, m este numarul de linii, iar n de coloane (trebuia sa te induca in eroare cumva)
+    f >> m >> n;    // Atentie! Conform cerintei, m este numarul de linii, iar n de coloane
     for (int i = 0; i < m; i++)
         for (int j = 0; j < n; j++)
             f >> matrix[i][j];
